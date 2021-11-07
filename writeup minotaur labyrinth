@@ -3,7 +3,7 @@ As there is anonymous login allowed in ftp server.
 we can log into ftp server and go into its dir to get first flag
 
 SECOND FLAG
-After performing directory enumeration on the webserver. we get and interesting directories and inside it we get the credential for the website
+After performing directory enumeration on the webserver. we get an interesting directories and inside it we get the credential for the website
 Loggin into user account. There is a feature to lookup for people/creatures in the webserver.
 There is sql injection on the feature and we can use the payload('or 1=1-- -) to dump all the users info.
 After dumping the user data, crack the hash of the user and login as minotaur and u will get the second flag
